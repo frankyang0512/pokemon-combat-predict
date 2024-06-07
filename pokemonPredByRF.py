@@ -4,7 +4,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score
 from sklearn.model_selection import train_test_split
 
-pokemon_stats = pd.read_csv('pokemon_data2.csv')  
+pokemon_stats = pd.read_csv('pokemon_data.csv')  
 battle_results = pd.read_csv('combats.csv')
 print(pokemon_stats.info())
 print(battle_results.info())
